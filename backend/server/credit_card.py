@@ -56,7 +56,6 @@ def latest_events():
 
     return results
 
-'''
 @credit_card_routes.route('/credit_card/destination/fraud_review', methods=['POST'])
 @requires_auth
 def destination_fraud_review():
@@ -105,4 +104,3 @@ def fraud_review():
         results.append(dict(zip(column_names, row)))
 
     return results
-'''

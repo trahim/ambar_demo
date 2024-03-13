@@ -1,4 +1,3 @@
-/*
 resource "ambar_filter" "credit_card_transactions" {
   data_source_id  = ambar_data_source.credit_card_events.resource_id
   description      = "Credit Card Transactions ${var.github_repository}"
@@ -14,7 +13,6 @@ resource "ambar_data_destination" "credit_card_fraud_review" {
   username             = local.destination_username
   password             = local.destination_password
 }
-*/
 
 
 resource "ambar_data_source" "credit_card_events" {
