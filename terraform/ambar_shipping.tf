@@ -1,4 +1,3 @@
-/*
 resource "ambar_filter" "shipping_returns" {
   data_source_id  = ambar_data_source.shipping_events.resource_id
   description      = "Shipping Returns ${var.github_repository}"
@@ -14,7 +13,6 @@ resource "ambar_data_destination" "shipping_return_review" {
   username             = local.destination_username
   password             = local.destination_password
 }
-*/
 
 
 resource "ambar_data_source" "shipping_events" {

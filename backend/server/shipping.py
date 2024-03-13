@@ -56,7 +56,6 @@ def latest_events():
 
     return results
 
-'''
 @shipping_routes.route('/shipping/destination/returns_review', methods=['POST'])
 @requires_auth
 def destination_fraud_review():
@@ -103,4 +102,3 @@ def returns_review():
         results.append(dict(zip(column_names, row)))
 
     return results
-'''
